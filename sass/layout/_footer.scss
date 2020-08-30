@@ -155,7 +155,10 @@ footer{
 @media screen and (max-width: 767px){
     .footer-container{
         >div{
-            width: 480px;
+            width: 480px;   
+            
+        }
+        .left-side{
             margin-bottom: 60px;
         }
     }

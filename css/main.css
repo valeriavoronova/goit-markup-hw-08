@@ -1503,6 +1503,8 @@ footer {
 @media screen and (max-width: 767px) {
   .footer-container > div {
     width: 480px;
+  }
+  .footer-container .left-side {
     margin-bottom: 60px;
   }
 }
