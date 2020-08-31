@@ -1588,6 +1588,10 @@ footer {
   }
 }
 
+.port-header {
+  border-bottom: 1px solid #ececec;
+}
+
 .proj-type-button {
   font-weight: 500;
   font-size: 16px;
