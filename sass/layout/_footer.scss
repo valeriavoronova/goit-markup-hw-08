@@ -142,7 +142,11 @@ footer{
 
 @media screen and (max-width: 479px){
     .sub-input{
-        width: 358px;
+        width: 100%;
+    }
+    .footer-button{
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 
