@@ -861,9 +861,6 @@ header {
     display: flex;
     align-items: center;
   }
-  .menu-wrapper .list-adress-link {
-    margin-left: 84px;
-  }
   .header-nav-links {
     display: flex;
   }
@@ -898,6 +895,12 @@ header {
   }
 }
 
+@media screen and (max-width: 1199px) {
+  .list-adress-link {
+    margin-left: 84px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   header {
     border-bottom: none;
@@ -913,11 +916,7 @@ header {
   .header .head-container {
     align-items: center;
   }
-  .header-nav-link:not(:last-child) {
-    margin-right: 50px;
-  }
   .header-nav-links {
-    margin-left: 85px;
     padding-left: 0px;
   }
   .nav-item-active,
@@ -934,6 +933,7 @@ header {
   }
   .list-adress-link {
     display: flex;
+    margin-left: 305px;
   }
   .list-adress-link .adress-item {
     align-items: center;
@@ -1550,6 +1550,7 @@ footer {
     line-height: 1.19;
   }
   .left-side {
+    padding-left: 0px;
     margin-right: 69px;
   }
   .right-side {

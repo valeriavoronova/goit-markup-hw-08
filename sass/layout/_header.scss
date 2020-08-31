@@ -234,9 +234,7 @@ header{
     .menu-wrapper{
         display: flex;
         align-items: center;
-       .list-adress-link{
-           margin-left: 84px;
-       }
+       
     }
 
     .header-nav-links{
@@ -277,6 +275,13 @@ header{
     }
 }
 
+@media screen and (max-width: 1199px){
+    .list-adress-link{
+        margin-left: 84px;
+    }
+}
+
+
 @media screen and (min-width: 1200px){
     header{
         border-bottom: none;
@@ -294,19 +299,20 @@ header{
     
     .header{
         .head-container{
-            align-items: center;       
+            align-items: center;
+              
         }
     }
 
-    .header-nav-link{
-        &:not(:last-child){
-            margin-right: 50px;
-        }
+    // .header-nav-link{
+    //     &:not(:last-child){
+    //         margin-right: 50px;
+    //     }
 
-    }
+    // }
         
     .header-nav-links{    
-        margin-left: 85px;
+        
         padding-left: 0px;
     }
 
@@ -333,7 +339,8 @@ header{
   
     .list-adress-link{
         display: flex;
-
+        margin-left: 305px;
+        
         .adress-item{
             align-items: center;         
             font-size: 14px;
