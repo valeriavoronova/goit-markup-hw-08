@@ -166,8 +166,9 @@ header{
     }
 
     .header-nav-links{
-        padding-left: 39.5%; 
-        padding-right: 39.5%;
+        
+        padding-left: 40%; 
+        padding-right: 40%;
         text-align: center;
         font-size: 18px;
         line-height: 1.666;
@@ -205,6 +206,8 @@ header{
             border-radius: 2px;
         }
     }
+
+    
     
     
             
@@ -239,6 +242,7 @@ header{
 
     .header-nav-links{
         display: flex;
+        
         .header-nav-link{
             padding-top: 32px;
             padding-bottom: 32px;
@@ -273,13 +277,14 @@ header{
         }
         
     }
-}
-
-@media screen and (max-width: 1199px){
     .list-adress-link{
         margin-left: 84px;
     }
 }
+
+// @media screen and (max-width: 1199px){
+
+// }
 
 
 @media screen and (min-width: 1200px){
@@ -340,6 +345,7 @@ header{
     .list-adress-link{
         display: flex;
         margin-left: 305px;
+        
         
         .adress-item{
             align-items: center;         

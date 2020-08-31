@@ -809,8 +809,8 @@ header {
     margin-bottom: 40px;
   }
   .header-nav-links {
-    padding-left: 39.5%;
-    padding-right: 39.5%;
+    padding-left: 40%;
+    padding-right: 40%;
     text-align: center;
     font-size: 18px;
     line-height: 1.666;
@@ -893,9 +893,6 @@ header {
     display: flex;
     justify-content: left;
   }
-}
-
-@media screen and (max-width: 1199px) {
   .list-adress-link {
     margin-left: 84px;
   }
